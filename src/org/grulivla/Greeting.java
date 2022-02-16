@@ -15,4 +15,7 @@ public class Greeting {
     } // metoda od atributu, ma kulatou zavorku
 
      */
+
+
+
 }

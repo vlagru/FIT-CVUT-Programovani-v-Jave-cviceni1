@@ -6,7 +6,64 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // jmeno tridy ma mit stejne jmeno se souborem
+
+        System.out.println("Hello world!");
+
+        int i = 10;
+
+        // ZAKLADNI KONSTRUKCE
+
+        //wrapper - z dat typu udela objekt
+        Integer a = 126;
+        Integer b = 126;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(a == b); /// false, porovnavat necim jinym, porovnavaji se ukazatele, nad 127 dynamicka alokace, porovnavaji se pointry !!!
+
+        // for (int j = 0; j < ; j++) {} // fori, s C i if, while a jine podobne
+
+        // FUNKCE
+
+        /*
+
+        // Vraci soucet cisel
+        public static int myFunction (int param1, int param2) {
+            return param1 + param2; // return v tomto pripade klicove slovo
+        }
+
+        */
+
+        // KALKULACKA
+
+
+
+        /*
+        System.out.println(i);
+        double a = 10.5;
+        System.out.println(a);
+        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //        // instancni (strany obdelniku) a staticke metody (pocet hranicnich bodu, nebo soucet vbitrnich uhlu)
 //        // u staticke metody nemaji smysl instance, ma se volat pres jmeno tridy
@@ -36,6 +93,7 @@ public class Main {
         System.err.println("Chyba"); //5 na error
        */
 
-        
+
+
     }
 }
