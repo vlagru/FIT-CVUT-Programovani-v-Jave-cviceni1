@@ -1,5 +1,7 @@
 package org.grulivla;
 
+import java.util.Map;
+import java.util.Properties;
 import java.util.Scanner;
 
 public class Main {
@@ -15,17 +17,25 @@ public class Main {
 //        Greeting greetingCn = new Greeting("你好世界。"); // tvorba noveho objektu // Object, ale nema metodu .greet
 //        greetingCn.greet();
 
-
+        /*
         final Scanner scanner = new Scanner(System.in); // ctrl + space, new vola konstruktor, System.in je input stream
 
         final String userName = System.getProperty("user.name"); // systemova vlastnost
         System.out.println("Ahoj " + userName + ", zadej dve cisla:");
+
+        Properties properties = System.getProperties(); // map, asociativni pole
+        for (Map.Entry<Object, Object>) entry : properties.entrySet(){
+            Object entry;
+            System.out.println(entry.getkey()) + " " + entry.getValue;
+        }
 
         int x = scanner.nextInt();
         // int x = 3; // ctrl shift alt l - univerzal, scanner lze i do promennych
         int y = scanner.nextInt(); //int y = 4;
         System.out.println(x + " + " + y + " = " + (x + y)); // printf - tam ty procenta jako v C, ozavorkovat
         System.err.println("Chyba"); //5 na error
+       */
 
+        
     }
 }
