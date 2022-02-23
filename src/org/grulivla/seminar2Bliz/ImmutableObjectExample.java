@@ -1,9 +1,8 @@
-package org.grulivla.semina2.Bliz;
+package org.grulivla.seminar2Bliz;
 
 
-import org.grulivla.semina2.Bliz.entity.MutableNotebook;
-
-import static org.grulivla.semina2.Bliz.entity.NotebookCategory.BASIC;
+import org.grulivla.seminar2Bliz.entity.MutableNotebook;
+import org.grulivla.seminar2Bliz.entity.NotebookCategory;
 
 //TOTO DODELAT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -19,7 +18,7 @@ public class ImmutableObjectExample {
 
     public static void main(String[] args) {
 
-        MutableNotebook lenovo = new MutableNotebook("Lenovo", BASIC, 20000);
+        MutableNotebook lenovo = new MutableNotebook("Lenovo", NotebookCategory.BASIC, 20000);
 
         printNotebook(lenovo);
         printNotebook(lenovo);

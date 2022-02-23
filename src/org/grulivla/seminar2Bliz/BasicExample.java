@@ -1,9 +1,9 @@
-package org.grulivla.semina2.Bliz;
+package org.grulivla.seminar2Bliz;
 
 
-import org.grulivla.semina2.Bliz.entity.MutableNotebook;
+import org.grulivla.seminar2Bliz.entity.MutableNotebook;
 
-import static org.grulivla.semina2.Bliz.entity.NotebookCategory.*; // * importuje to vsechny z enumu
+import static org.grulivla.seminar2Bliz.entity.NotebookCategory.*; // * importuje to vsechny z enumu
 
 public class BasicExample {
 
