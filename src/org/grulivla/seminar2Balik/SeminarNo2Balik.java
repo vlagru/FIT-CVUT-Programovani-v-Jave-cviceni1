@@ -1,4 +1,4 @@
-package org.grulivla.seminar2;
+package org.grulivla.seminar2Balik;
 
 public class SeminarNo2Balik {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.grulivla;
+package org.grulivla.seminar1BalikBorsky;
 
 import java.util.Map;
 import java.util.Properties;
